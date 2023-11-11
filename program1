@@ -1,0 +1,17 @@
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
+
+# Example data (replace this with your data)
+data = np.random.normal(size=100)
+
+# Create a histogram
+plt.hist(data, bins=20, color='blue', edgecolor='black')
+
+# Add labels and title
+plt.xlabel('Variable')
+plt.ylabel('Frequency')
+plt.title('Distribution of a Continuous Variable')
+
+# Show the plot
+plt.show()
